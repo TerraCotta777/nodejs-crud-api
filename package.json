@@ -1,0 +1,29 @@
+{
+    "name": "crud-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/main.ts",
+    "type": "module",
+    "scripts": {
+        "start:dev": "npx nodemon",
+        "start:prod": "tsc && node ./build/main.js",
+        "lint": "npx eslint ./src",
+        "format": "npx eslint ./src --fix"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.11.16",
+        "@types/uuid": "^9.0.8",
+        "@typescript-eslint/eslint-plugin": "^6.21.0",
+        "@typescript-eslint/parser": "^6.21.0",
+        "dotenv": "^16.4.1",
+        "eslint": "^8.56.0",
+        "nodemon": "^3.0.3",
+        "prettier": "^3.2.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3",
+        "uuid": "^9.0.1"
+    }
+}
